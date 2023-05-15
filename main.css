@@ -1,0 +1,106 @@
+
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10%;
+
+}
+
+#github{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    border-radius: 20%;
+}
+
+#linkedin{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+#profil{
+
+    
+    border-radius: 20%;
+    width: 20%;
+    height: 20%;
+    object-fit: contain;
+}
+
+.profil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    font-size: 500%;
+}
+
+/***************/
+
+
+.corpus{
+    display: flex;
+
+}
+
+#formation{
+    border-radius: 20%;
+    width: 95%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#competence{
+    border-radius: 20%;
+    width: 95%;
+    height: 100%;
+    cursor: pointer;
+
+}
+
+#experience{
+    border-radius: 20%;
+    width: 95%;
+    height: 100%;
+    cursor: pointer;
+
+}
+
+.btn-primary{
+    background-color: transparent;
+    
+    
+}
+
+img {
+    
+}   
+
+
+@media only screen and (max-width: 900px) {
+
+    .corpus{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #profil{
+        border-radius: 20%;
+        width: 50%;
+        height: 20%;
+        object-fit: contain;
+    }
+
+    .profil{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        justify-content: space-around;
+        font-size: 300%
+}
+}
